@@ -39,5 +39,6 @@ Pinos do Sensor:
 ## Video - Funcionamento
 
 <div align="center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/bdTQDP5m7C0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<a  href="https://youtu.be/bdTQDP5m7C0" target="_blank"><img src="http://i3.ytimg.com/vi/bdTQDP5m7C0/hqdefault.jpg" 
+alt="Functioning Video" width="720" height="480" border="10" /></a>
 </div>
