@@ -39,6 +39,6 @@ Pinos do Sensor:
 ## Video - Funcionamento
 
 <div align="center">
-	<a  href="https://youtu.be/bdTQDP5m7C0" target="_blank"><img src="http://i3.ytimg.com/vi/bdTQDP5m7C0/hqdefault.jpg" 
+	<a  href="https://youtu.be/bdTQDP5m7C0" target="_blank"><img src="https://yt-embed.herokuapp.com/embed?v=bdTQDP5m7C0" 
 alt="Functioning Video" width="720" height="480" border="10" /></a>
 </div>
