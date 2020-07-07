@@ -1,3 +1,7 @@
+  
+#include<LiquidCrystal.h>
+
+LiquidCrystal lcd (12,11,10,9,8,6);
 
 const short trigPin = 4;
 const short echoPin = 7;
@@ -62,12 +66,24 @@ int distance (){
 
 }
 
+void displayText(int distance){
+  
+  lcd.clear();
+  lcd.setCursor(3,0);
+
+  lcd.print("Distancia");
+  lcd.setCursor (4,1);
+  lcd.print(String(distance) + " cm");
+  
+}
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
   pinMode(buzzPin, OUTPUT);
+
+  lcd.begin(16,2);
 
   Serial.begin(9600);
   
@@ -79,6 +95,7 @@ void loop() {
   unsigned long currentTime = millis();
   dist = distance();
 
+  displayText(dist);
   buzzer(dist,&currentTime);
   Serial.println(dist);
   delay(30);

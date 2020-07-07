@@ -23,7 +23,7 @@ As oscilações do acionamento do Buzzer ocorrem nas seguintes configurações d
 
 ## Esquemático
 
-![esquematico](https://i.imgur.com/cKMUXRl.png "Esquemático de Implementação do Circuito")
+![esquematico](https://i.imgur.com/Z1EXsgG.png "Esquemático de Implementação do Circuito")
 O esquemático acima foi produzido no Fritzing e seguem as seguintes configurações de pinos:
 
 #### HC-SR04
