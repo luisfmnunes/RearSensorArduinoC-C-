@@ -13,7 +13,7 @@ Este projeto consiste no desenvolvimento de um sensor de ré (rear parking senso
 ## Funcionamento
 O dispositivo foi projetado para possuir 3 fases de detecção de distância (em **centímetros**), calculando essa distância utilizando a velocidade do som e a equação básica do Movimento Uniforme (MU) como representado na figura abaixo:
 
-![equation](https://snipboard.io/3cFjbu.jpg?style=centerme "Equacionamento da onda sonora e captação do sensor")
+![equation](https://i.imgur.com/InSFuls.png "Equacionamento da onda sonora e captação do sensor")
 
 As oscilações do acionamento do Buzzer ocorrem nas seguintes configurações de distância:
 - Fora de Alcance (Distância > 18cm) - Sem Som
@@ -23,7 +23,7 @@ As oscilações do acionamento do Buzzer ocorrem nas seguintes configurações d
 
 ## Esquemático
 
-![esquematico](https://i.imgur.com/InSFuls.png "Esquemático de Implementação do Circuito")
+![esquematico](https://i.imgur.com/Z1EXsgG.png "Esquemático de Implementação do Circuito")
 O esquemático acima foi produzido no Fritzing e seguem as seguintes configurações de pinos:
 
 #### HC-SR04
